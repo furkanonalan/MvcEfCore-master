@@ -1,0 +1,15 @@
+﻿@*
+	Welcome to Our Page!
+*@
+
+@{
+
+}
+<label>@ViewData["fName"]</label><br />
+<img src="@ViewData["fileLocation"]" />
+
+<form method="post" action="/Players/" enctype="multipart/form-data">
+
+	<input type="submit" value="Go" />
+</form>
+
